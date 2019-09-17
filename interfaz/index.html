@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        
+        <script src="scripts/script.js" text="text/javascript"></script>
+    </head>
+    <body>        
+
+        <h3 id="operacion"></h3><p id="display"></p>
+        <br>
+        <input type="button" value="7" onclick="digitarNumero('7')"/>
+        <input type="button" value="8" onclick="digitarNumero('8')"/>
+        <input type="button" value="9" onclick="digitarNumero('9')"/>
+        <br>        
+        <input type="button" value="4" onclick="digitarNumero('4')"/>
+        <input type="button" value="5" onclick="digitarNumero('5')"/>
+        <input type="button" value="6" onclick="digitarNumero('6')"/>
+        <br>
+        <input type="button" value="1" onclick="digitarNumero('1')"/>
+        <input type="button" value="2" onclick="digitarNumero('2')"/>
+        <input type="button" value="3" onclick="digitarNumero('3')"/>
+        <br>
+        <input type="button" value="0" onclick="digitarNumero('0')"/>
+        <input type="button" value="<--" onclick="borrar()">
+        <br>
+
+        <input type="button" value="+" onclick="sumar()"/>
+        <input type="button" value="-" onclick="restar()"/>
+        <input type="button" value="x" onclick="multiplicar()"/>
+        <input type="button" value="/" onclick="dividir()"/>
+        <input type="button" value="AC" onclick="borrarTodo()"/>
+        <input type="button" value="=" onclick="obtenerResultado()"/>
+
+    </body>
+</html>
